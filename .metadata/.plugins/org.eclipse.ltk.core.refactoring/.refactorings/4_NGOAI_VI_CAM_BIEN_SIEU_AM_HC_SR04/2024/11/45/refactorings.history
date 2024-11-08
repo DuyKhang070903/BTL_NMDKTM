@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;4_NGOAI_VI_CAM_BIEN_SIEU_AM_HC_SR04/Core/Inc/HC_SR05.h&apos; to &apos;HC_SR04.h&apos;" description="Rename resource &apos;HC_SR05.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Inc/HC_SR05.h" name="HC_SR04.h" stamp="1731072799609" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;4_NGOAI_VI_CAM_BIEN_SIEU_AM_HC_SR04/Core/Src/HC_SR05.c&apos; to &apos;HC_SR04.c&apos;" description="Rename resource &apos;HC_SR05.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/HC_SR05.c" name="HC_SR04.c" stamp="1731072809792" updateReferences="true"/>
+</session>
