@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_sPDBYJ2ZEe-JuablCoMmlw" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_sPDBYZ2ZEe-JuablCoMmlw" bindingContexts="_sPEQ8p2ZEe-JuablCoMmlw">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;stm32f4xx_hal.c&quot; tooltip=&quot;BTL_NMDKTM_DK/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BTL_NMDKTM_DK/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.c&quot; tooltip=&quot;BTL_NMDKTM_DK/Core/Src/main.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BTL_NMDKTM_DK/Core/Src/main.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.asm.AsmEditor&quot; name=&quot;startup_stm32f411vetx.s&quot; tooltip=&quot;BTL_NMDKTM_DK/Core/Startup/startup_stm32f411vetx.s&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BTL_NMDKTM_DK/Core/Startup/startup_stm32f411vetx.s&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;system_stm32f4xx.c&quot; tooltip=&quot;BTL_NMDKTM_DK/Core/Src/system_stm32f4xx.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BTL_NMDKTM_DK/Core/Src/system_stm32f4xx.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.h&quot; tooltip=&quot;BTL_NMDKTM_DK/Core/Inc/main.h&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BTL_NMDKTM_DK/Core/Inc/main.h&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;stm32f4xx_hal_tim.c&quot; tooltip=&quot;BTL_NMDKTM_DK/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BTL_NMDKTM_DK/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;HC_SR05.c&quot; tooltip=&quot;BTL_NMDKTM_DK/Core/Src/HC_SR05.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BTL_NMDKTM_DK/Core/Src/HC_SR05.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;stm32f4xx_hal_rcc.c&quot; tooltip=&quot;BTL_NMDKTM_DK/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BTL_NMDKTM_DK/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;HC_SR05.h&quot; tooltip=&quot;BTL_NMDKTM_DK/Core/Inc/HC_SR05.h&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BTL_NMDKTM_DK/Core/Inc/HC_SR05.h&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.st.stm32cube.common.mx.startCubeMx&quot; name=&quot;4_NGOAI_VI_CAM_BIEN_SIEU_AM_HC_SR04.ioc&quot; tooltip=&quot;4_NGOAI_VI_CAM_BIEN_SIEU_AM_HC_SR04/4_NGOAI_VI_CAM_BIEN_SIEU_AM_HC_SR04.ioc&quot;>&#xD;&#xA;&lt;persistable path=&quot;/4_NGOAI_VI_CAM_BIEN_SIEU_AM_HC_SR04/4_NGOAI_VI_CAM_BIEN_SIEU_AM_HC_SR04.ioc&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;stm32f4xx_hal.c&quot; tooltip=&quot;4_NGOAI_VI_CAM_BIEN_SIEU_AM_HC_SR04/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/4_NGOAI_VI_CAM_BIEN_SIEU_AM_HC_SR04/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.c&quot; tooltip=&quot;4_NGOAI_VI_CAM_BIEN_SIEU_AM_HC_SR04/Core/Src/main.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/4_NGOAI_VI_CAM_BIEN_SIEU_AM_HC_SR04/Core/Src/main.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.st.stm32cube.common.mx.startCubeMx&quot; name=&quot;BTL_NMDKTM_DK.ioc&quot; tooltip=&quot;BTL_NMDKTM_DK/BTL_NMDKTM_DK.ioc&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BTL_NMDKTM_DK/BTL_NMDKTM_DK.ioc&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;HC_SR04.c&quot; tooltip=&quot;4_NGOAI_VI_CAM_BIEN_SIEU_AM_HC_SR04/Core/Src/HC_SR04.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/4_NGOAI_VI_CAM_BIEN_SIEU_AM_HC_SR04/Core/Src/HC_SR04.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;stm32f4xx_hal_gpio.c&quot; tooltip=&quot;BTL_NMDKTM_DK/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BTL_NMDKTM_DK/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;HC_SR04.h&quot; tooltip=&quot;4_NGOAI_VI_CAM_BIEN_SIEU_AM_HC_SR04/Core/Inc/HC_SR04.h&quot;>&#xD;&#xA;&lt;persistable path=&quot;/4_NGOAI_VI_CAM_BIEN_SIEU_AM_HC_SR04/Core/Inc/HC_SR04.h&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.h&quot; tooltip=&quot;4_NGOAI_VI_CAM_BIEN_SIEU_AM_HC_SR04/Core/Inc/main.h&quot;>&#xD;&#xA;&lt;persistable path=&quot;/4_NGOAI_VI_CAM_BIEN_SIEU_AM_HC_SR04/Core/Inc/main.h&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;stm32f4xx_it.c&quot; tooltip=&quot;BTL_NMDKTM_DK/Core/Src/stm32f4xx_it.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BTL_NMDKTM_DK/Core/Src/stm32f4xx_it.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.st.stm32cube.common.mx.startCubeMx&quot; name=&quot;BTL_NMDKTM_DK.ioc&quot; tooltip=&quot;BTL_NMDKTM_DK/BTL_NMDKTM_DK.ioc&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BTL_NMDKTM_DK/BTL_NMDKTM_DK.ioc&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;stm32f4xx_hal.c&quot; tooltip=&quot;BTL_NMDKTM_DK/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BTL_NMDKTM_DK/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.c&quot; tooltip=&quot;BTL_NMDKTM_DK/Core/Src/main.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BTL_NMDKTM_DK/Core/Src/main.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.asm.AsmEditor&quot; name=&quot;startup_stm32f411vetx.s&quot; tooltip=&quot;BTL_NMDKTM_DK/Core/Startup/startup_stm32f411vetx.s&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BTL_NMDKTM_DK/Core/Startup/startup_stm32f411vetx.s&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;system_stm32f4xx.c&quot; tooltip=&quot;BTL_NMDKTM_DK/Core/Src/system_stm32f4xx.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BTL_NMDKTM_DK/Core/Src/system_stm32f4xx.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;stm32f4xx_hal_msp.c&quot; tooltip=&quot;BTL_NMDKTM_DK/Core/Src/stm32f4xx_hal_msp.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BTL_NMDKTM_DK/Core/Src/stm32f4xx_hal_msp.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;HC_SR05.h&quot; tooltip=&quot;BTL_NMDKTM_DK/Core/Inc/HC_SR05.h&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BTL_NMDKTM_DK/Core/Inc/HC_SR05.h&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;HC_SR05.c&quot; tooltip=&quot;BTL_NMDKTM_DK/Core/Src/HC_SR05.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BTL_NMDKTM_DK/Core/Src/HC_SR05.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.h&quot; tooltip=&quot;BTL_NMDKTM_DK/Core/Inc/main.h&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BTL_NMDKTM_DK/Core/Inc/main.h&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;stm32f4xx_hal_tim.c&quot; tooltip=&quot;BTL_NMDKTM_DK/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BTL_NMDKTM_DK/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;stm32f4xx_hal_rcc.c&quot; tooltip=&quot;BTL_NMDKTM_DK/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BTL_NMDKTM_DK/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.st.stm32cube.common.mx.startCubeMx&quot; name=&quot;4_NGOAI_VI_CAM_BIEN_SIEU_AM_HC_SR04.ioc&quot; tooltip=&quot;4_NGOAI_VI_CAM_BIEN_SIEU_AM_HC_SR04/4_NGOAI_VI_CAM_BIEN_SIEU_AM_HC_SR04.ioc&quot;>&#xD;&#xA;&lt;persistable path=&quot;/4_NGOAI_VI_CAM_BIEN_SIEU_AM_HC_SR04/4_NGOAI_VI_CAM_BIEN_SIEU_AM_HC_SR04.ioc&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;stm32f4xx_hal.c&quot; tooltip=&quot;4_NGOAI_VI_CAM_BIEN_SIEU_AM_HC_SR04/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/4_NGOAI_VI_CAM_BIEN_SIEU_AM_HC_SR04/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.c&quot; tooltip=&quot;4_NGOAI_VI_CAM_BIEN_SIEU_AM_HC_SR04/Core/Src/main.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/4_NGOAI_VI_CAM_BIEN_SIEU_AM_HC_SR04/Core/Src/main.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;HC_SR04.c&quot; tooltip=&quot;4_NGOAI_VI_CAM_BIEN_SIEU_AM_HC_SR04/Core/Src/HC_SR04.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/4_NGOAI_VI_CAM_BIEN_SIEU_AM_HC_SR04/Core/Src/HC_SR04.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;stm32f4xx_hal_gpio.c&quot; tooltip=&quot;BTL_NMDKTM_DK/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BTL_NMDKTM_DK/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;HC_SR04.h&quot; tooltip=&quot;4_NGOAI_VI_CAM_BIEN_SIEU_AM_HC_SR04/Core/Inc/HC_SR04.h&quot;>&#xD;&#xA;&lt;persistable path=&quot;/4_NGOAI_VI_CAM_BIEN_SIEU_AM_HC_SR04/Core/Inc/HC_SR04.h&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.h&quot; tooltip=&quot;4_NGOAI_VI_CAM_BIEN_SIEU_AM_HC_SR04/Core/Inc/main.h&quot;>&#xD;&#xA;&lt;persistable path=&quot;/4_NGOAI_VI_CAM_BIEN_SIEU_AM_HC_SR04/Core/Inc/main.h&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;stm32f4xx_it.c&quot; tooltip=&quot;BTL_NMDKTM_DK/Core/Src/stm32f4xx_it.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BTL_NMDKTM_DK/Core/Src/stm32f4xx_it.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_sPDBYZ2ZEe-JuablCoMmlw" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_sPDBYp2ZEe-JuablCoMmlw" x="862" y="0" width="1066" height="1038">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_sPDBYZ2ZEe-JuablCoMmlw" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_sPDBYp2ZEe-JuablCoMmlw" x="0" y="0" width="1066" height="1038">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -69,7 +69,7 @@
           <tags>persp.viewSC:com.st.stm32cube.ide.mcu.cyclomaticcomplexity.view</tags>
           <tags>persp.viewSC:com.st.stm32cube.ide.mcu.sfrview</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_UQ7EcJ3SEe-5MoxPU7BTEQ" selectedElement="_UQ7EdZ3SEe-5MoxPU7BTEQ" horizontal="true">
-            <children xsi:type="basic:PartStack" xmi:id="_UQ7EcZ3SEe-5MoxPU7BTEQ" elementId="topLeft" containerData="1750" selectedElement="_UQ7Ecp3SEe-5MoxPU7BTEQ">
+            <children xsi:type="basic:PartStack" xmi:id="_UQ7EcZ3SEe-5MoxPU7BTEQ" elementId="topLeft" containerData="1000" selectedElement="_UQ7Ecp3SEe-5MoxPU7BTEQ">
               <children xsi:type="advanced:Placeholder" xmi:id="_UQ7Ecp3SEe-5MoxPU7BTEQ" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_sPDqZZ2ZEe-JuablCoMmlw" closeable="true">
                 <tags>View</tags>
                 <tags>categoryTag:General</tags>
@@ -83,10 +83,10 @@
                 <tags>categoryTag:General</tags>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_UQ7EdZ3SEe-5MoxPU7BTEQ" containerData="8250" selectedElement="_UQ7EfJ3SEe-5MoxPU7BTEQ">
-              <children xsi:type="basic:PartSashContainer" xmi:id="_UQ7Edp3SEe-5MoxPU7BTEQ" containerData="7090" selectedElement="_UQ7Ed53SEe-5MoxPU7BTEQ" horizontal="true">
-                <children xsi:type="advanced:Placeholder" xmi:id="_UQ7Ed53SEe-5MoxPU7BTEQ" elementId="org.eclipse.ui.editorss" containerData="8102" ref="_sPDqUp2ZEe-JuablCoMmlw"/>
-                <children xsi:type="basic:PartStack" xmi:id="_UQ7EeJ3SEe-5MoxPU7BTEQ" elementId="topRight" containerData="1898" selectedElement="_UQ7EeZ3SEe-5MoxPU7BTEQ">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_UQ7EdZ3SEe-5MoxPU7BTEQ" containerData="9000" selectedElement="_UQ7Edp3SEe-5MoxPU7BTEQ">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_UQ7Edp3SEe-5MoxPU7BTEQ" containerData="9000" selectedElement="_UQ7Ed53SEe-5MoxPU7BTEQ" horizontal="true">
+                <children xsi:type="advanced:Placeholder" xmi:id="_UQ7Ed53SEe-5MoxPU7BTEQ" elementId="org.eclipse.ui.editorss" containerData="9000" ref="_sPDqUp2ZEe-JuablCoMmlw"/>
+                <children xsi:type="basic:PartStack" xmi:id="_UQ7EeJ3SEe-5MoxPU7BTEQ" elementId="topRight" containerData="1000" selectedElement="_UQ7EeZ3SEe-5MoxPU7BTEQ">
                   <children xsi:type="advanced:Placeholder" xmi:id="_UQ7EeZ3SEe-5MoxPU7BTEQ" elementId="org.eclipse.ui.views.ContentOutline" ref="_sPDqx52ZEe-JuablCoMmlw" closeable="true">
                     <tags>View</tags>
                     <tags>categoryTag:General</tags>
@@ -101,7 +101,7 @@
                   </children>
                 </children>
               </children>
-              <children xsi:type="basic:PartSashContainer" xmi:id="_UQ7EfJ3SEe-5MoxPU7BTEQ" containerData="2910" selectedElement="_UQ7EfZ3SEe-5MoxPU7BTEQ" horizontal="true">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_UQ7EfJ3SEe-5MoxPU7BTEQ" containerData="1000" selectedElement="_UQ7EfZ3SEe-5MoxPU7BTEQ" horizontal="true">
                 <children xsi:type="basic:PartStack" xmi:id="_UQ7EfZ3SEe-5MoxPU7BTEQ" elementId="bottom" containerData="6541" selectedElement="_UQ7EgJ3SEe-5MoxPU7BTEQ">
                   <children xsi:type="advanced:Placeholder" xmi:id="_UQ7Efp3SEe-5MoxPU7BTEQ" elementId="org.eclipse.ui.views.ProblemView" ref="_sPDqgZ2ZEe-JuablCoMmlw" closeable="true">
                     <tags>View</tags>
@@ -120,7 +120,9 @@
                     <tags>categoryTag:General</tags>
                   </children>
                 </children>
-                <children xsi:type="basic:PartStack" xmi:id="_UQ7Egp3SEe-5MoxPU7BTEQ" elementId="com.st.stm32cube.ide.mcu.buildanalyzer.viewMStack" containerData="3459" selectedElement="_UQ7Eg53SEe-5MoxPU7BTEQ">
+                <children xsi:type="basic:PartStack" xmi:id="_UQ7Egp3SEe-5MoxPU7BTEQ" elementId="com.st.stm32cube.ide.mcu.buildanalyzer.viewMStack" containerData="3459" selectedElement="_7mV4waH9Ee-tIe3bZwzIyA">
+                  <tags>C/C++</tags>
+                  <tags>General</tags>
                   <children xsi:type="advanced:Placeholder" xmi:id="_UQ7Eg53SEe-5MoxPU7BTEQ" elementId="com.st.stm32cube.ide.mcu.buildanalyzer.view" ref="_sPDq3Z2ZEe-JuablCoMmlw" closeable="true">
                     <tags>View</tags>
                     <tags>categoryTag:C/C++</tags>
@@ -132,6 +134,14 @@
                   <children xsi:type="advanced:Placeholder" xmi:id="_UQ7EhZ3SEe-5MoxPU7BTEQ" elementId="com.st.stm32cube.ide.mcu.cyclomaticcomplexity.view" ref="_sPDq7Z2ZEe-JuablCoMmlw" closeable="true">
                     <tags>View</tags>
                     <tags>categoryTag:C/C++</tags>
+                  </children>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_5OqPsaH9Ee-tIe3bZwzIyA" elementId="org.eclipse.cdt.ui.callHierarchy" ref="_5OqPsKH9Ee-tIe3bZwzIyA" closeable="true">
+                    <tags>View</tags>
+                    <tags>categoryTag:C/C++</tags>
+                  </children>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_7mV4waH9Ee-tIe3bZwzIyA" elementId="org.eclipse.search.ui.views.SearchView" ref="_7mV4wKH9Ee-tIe3bZwzIyA" closeable="true">
+                    <tags>View</tags>
+                    <tags>categoryTag:General</tags>
                   </children>
                 </children>
               </children>
@@ -164,15 +174,8 @@
           <tags>persp.viewSC:org.eclipse.ui.views.ProblemView</tags>
           <tags>persp.viewSC:org.eclipse.ui.navigator.ProjectExplorer</tags>
           <tags>persp.viewSC:org.eclipse.pde.runtime.LogView</tags>
-          <tags>persp.editorOnboardingImageUri:platform:/plugin/org.eclipse.debug.ui/icons/full/onboarding_debug_persp.png</tags>
-          <tags>persp.editorOnboardingText:Go hunt your bugs here.</tags>
           <tags>persp.actionSet:org.eclipse.debug.ui.breakpointActionSet</tags>
           <tags>persp.showIn:org.eclipse.ui.navigator.ProjectExplorer</tags>
-          <tags>persp.editorOnboardingCommand:Find Actions$$$Ctrl+3</tags>
-          <tags>persp.editorOnboardingCommand:Step Into$$$F5</tags>
-          <tags>persp.editorOnboardingCommand:Step Over$$$F6</tags>
-          <tags>persp.editorOnboardingCommand:Step Return$$$F7</tags>
-          <tags>persp.editorOnboardingCommand:Resume$$$F8</tags>
           <tags>persp.perspSC:org.eclipse.cdt.ui.CPerspective</tags>
           <tags>persp.actionSet:com.st.stm32cube.ide.mcu.debug.dsf.oss.ui.debugActionSet</tags>
           <tags>persp.viewSC:org.eclipse.cdt.debug.ui.SignalsView</tags>
@@ -195,8 +198,15 @@
           <tags>persp.viewSC:com.st.stm32cube.ide.mcu.faultanalyzer.view</tags>
           <tags>persp.viewSC:com.st.stm32cube.ide.mcu.cyclomaticcomplexity.view</tags>
           <tags>persp.viewSC:com.st.stm32cube.ide.mcu.sfrview</tags>
+          <tags>persp.editorOnboardingImageUri:platform:/plugin/org.eclipse.debug.ui/icons/full/onboarding_debug_persp.png</tags>
+          <tags>persp.editorOnboardingText:Go hunt your bugs here.</tags>
+          <tags>persp.editorOnboardingCommand:Find Actions$$$Ctrl+3</tags>
+          <tags>persp.editorOnboardingCommand:Step Into$$$F5</tags>
+          <tags>persp.editorOnboardingCommand:Step Over$$$F6</tags>
+          <tags>persp.editorOnboardingCommand:Step Return$$$F7</tags>
+          <tags>persp.editorOnboardingCommand:Resume$$$F8</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_t-hZIZ3UEe-5MoxPU7BTEQ" selectedElement="_t-hZKJ3UEe-5MoxPU7BTEQ" horizontal="true">
-            <children xsi:type="basic:PartSashContainer" xmi:id="_t-hZIp3UEe-5MoxPU7BTEQ" containerData="2500" selectedElement="_t-hZI53UEe-5MoxPU7BTEQ" horizontal="true">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_t-hZIp3UEe-5MoxPU7BTEQ" containerData="1536" selectedElement="_t-hZI53UEe-5MoxPU7BTEQ" horizontal="true">
               <children xsi:type="basic:PartStack" xmi:id="_t-hZI53UEe-5MoxPU7BTEQ" elementId="org.eclipse.debug.internal.ui.NavigatorFolderView" containerData="5000" selectedElement="_t-hZJJ3UEe-5MoxPU7BTEQ">
                 <tags>org.eclipse.e4.primaryNavigationStack</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_t-hZJJ3UEe-5MoxPU7BTEQ" elementId="org.eclipse.debug.ui.DebugView" ref="_t-bSgJ3UEe-5MoxPU7BTEQ" closeable="true">
@@ -215,10 +225,10 @@
                 </children>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_t-hZKJ3UEe-5MoxPU7BTEQ" containerData="7500" selectedElement="_t-hZOJ3UEe-5MoxPU7BTEQ">
-              <children xsi:type="basic:PartSashContainer" xmi:id="_t-hZKZ3UEe-5MoxPU7BTEQ" containerData="7500" selectedElement="_t-hZKp3UEe-5MoxPU7BTEQ" horizontal="true">
-                <children xsi:type="advanced:Placeholder" xmi:id="_t-hZKp3UEe-5MoxPU7BTEQ" elementId="org.eclipse.ui.editorss" containerData="5484" ref="_sPDqUp2ZEe-JuablCoMmlw"/>
-                <children xsi:type="basic:PartStack" xmi:id="_t-hZK53UEe-5MoxPU7BTEQ" elementId="org.eclipse.debug.internal.ui.OutlineFolderView" containerData="4516" selectedElement="_t-hZNp3UEe-5MoxPU7BTEQ">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_t-hZKJ3UEe-5MoxPU7BTEQ" containerData="8464" selectedElement="_t-hZOJ3UEe-5MoxPU7BTEQ">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_t-hZKZ3UEe-5MoxPU7BTEQ" containerData="7419" selectedElement="_t-hZKp3UEe-5MoxPU7BTEQ" horizontal="true">
+                <children xsi:type="advanced:Placeholder" xmi:id="_t-hZKp3UEe-5MoxPU7BTEQ" elementId="org.eclipse.ui.editorss" containerData="6005" ref="_sPDqUp2ZEe-JuablCoMmlw"/>
+                <children xsi:type="basic:PartStack" xmi:id="_t-hZK53UEe-5MoxPU7BTEQ" elementId="org.eclipse.debug.internal.ui.OutlineFolderView" containerData="3995" selectedElement="_t-hZNp3UEe-5MoxPU7BTEQ">
                   <tags>org.eclipse.e4.secondaryNavigationStack</tags>
                   <children xsi:type="advanced:Placeholder" xmi:id="_t-hZLJ3UEe-5MoxPU7BTEQ" elementId="org.eclipse.debug.ui.VariableView" ref="_t-b5kp3UEe-5MoxPU7BTEQ" closeable="true">
                     <tags>View</tags>
@@ -270,7 +280,7 @@
                   </children>
                 </children>
               </children>
-              <children xsi:type="basic:PartStack" xmi:id="_t-hZOJ3UEe-5MoxPU7BTEQ" elementId="org.eclipse.debug.internal.ui.ToolsFolderView" containerData="2500" selectedElement="_t-hZOZ3UEe-5MoxPU7BTEQ">
+              <children xsi:type="basic:PartStack" xmi:id="_t-hZOJ3UEe-5MoxPU7BTEQ" elementId="org.eclipse.debug.internal.ui.ToolsFolderView" containerData="2581" selectedElement="_t-hZOZ3UEe-5MoxPU7BTEQ">
                 <tags>Debug</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_t-hZOZ3UEe-5MoxPU7BTEQ" elementId="org.eclipse.ui.console.ConsoleView" ref="_sPDqjZ2ZEe-JuablCoMmlw" closeable="true">
                   <tags>View</tags>
@@ -362,18 +372,12 @@
         <tags>EditorStack</tags>
         <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_h61rMJ3cEe-5MoxPU7BTEQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="main.c" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.c&quot; partName=&quot;main.c&quot; title=&quot;main.c&quot; tooltip=&quot;BTL_NMDKTM_DK/Core/Src/main.c&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/BTL_NMDKTM_DK/Core/Src/main.c&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;15625&quot; selectionTopPixel=&quot;11243&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.c&quot; partName=&quot;main.c&quot; title=&quot;main.c&quot; tooltip=&quot;BTL_NMDKTM_DK/Core/Src/main.c&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/BTL_NMDKTM_DK/Core/Src/main.c&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;12640&quot; selectionTopPixel=&quot;9062&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.cdt.ui.editor.CEditor</tags>
           <tags>active</tags>
           <tags>activeOnClose</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_4RK0AJ3cEe-5MoxPU7BTEQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="HC_SR05.c" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;HC_SR05.c&quot; partName=&quot;HC_SR05.c&quot; title=&quot;HC_SR05.c&quot; tooltip=&quot;BTL_NMDKTM_DK/Core/Src/HC_SR05.c&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/BTL_NMDKTM_DK/Core/Src/HC_SR05.c&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1637&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>removeOnHide</tags>
-          <tags>org.eclipse.cdt.ui.editor.CEditor</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_DMdc4J3dEe-5MoxPU7BTEQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="startup_stm32f411vetx.s" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/s_file_obj.gif" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.asm.AsmEditor&quot; name=&quot;startup_stm32f411vetx.s&quot; partName=&quot;startup_stm32f411vetx.s&quot; title=&quot;startup_stm32f411vetx.s&quot; tooltip=&quot;BTL_NMDKTM_DK/Core/Startup/startup_stm32f411vetx.s&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/BTL_NMDKTM_DK/Core/Startup/startup_stm32f411vetx.s&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;2254&quot; selectionTopPixel=&quot;1200&quot;/>&#xD;&#xA;&lt;/editor>"/>
@@ -382,25 +386,25 @@
           <tags>org.eclipse.cdt.ui.editor.asm.AsmEditor</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_LWoB8J3dEe-5MoxPU7BTEQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="stm32f4xx_hal.c" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;stm32f4xx_hal.c&quot; partName=&quot;stm32f4xx_hal.c&quot; title=&quot;stm32f4xx_hal.c&quot; tooltip=&quot;BTL_NMDKTM_DK/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/BTL_NMDKTM_DK/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;14378&quot; selectionTopPixel=&quot;7820&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;stm32f4xx_hal.c&quot; partName=&quot;stm32f4xx_hal.c&quot; title=&quot;stm32f4xx_hal.c&quot; tooltip=&quot;BTL_NMDKTM_DK/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/BTL_NMDKTM_DK/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;12596&quot; selectionTopPixel=&quot;6320&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.cdt.ui.editor.CEditor</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_YgUcEJ3dEe-5MoxPU7BTEQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="main.h" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.h&quot; partName=&quot;main.h&quot; title=&quot;main.h&quot; tooltip=&quot;BTL_NMDKTM_DK/Core/Inc/main.h&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/BTL_NMDKTM_DK/Core/Inc/main.h&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1496&quot; selectionTopPixel=&quot;701&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.h&quot; partName=&quot;main.h&quot; title=&quot;main.h&quot; tooltip=&quot;BTL_NMDKTM_DK/Core/Inc/main.h&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/BTL_NMDKTM_DK/Core/Inc/main.h&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1561&quot; selectionTopPixel=&quot;660&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.cdt.ui.editor.CEditor</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_bxDNAJ3dEe-5MoxPU7BTEQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="HC_SR05.h" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;HC_SR05.h&quot; partName=&quot;HC_SR05.h&quot; title=&quot;HC_SR05.h&quot; tooltip=&quot;BTL_NMDKTM_DK/Core/Inc/HC_SR05.h&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/BTL_NMDKTM_DK/Core/Inc/HC_SR05.h&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;189&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;HC_SR05.h&quot; partName=&quot;HC_SR05.h&quot; title=&quot;HC_SR05.h&quot; tooltip=&quot;BTL_NMDKTM_DK/Core/Inc/HC_SR05.h&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/BTL_NMDKTM_DK/Core/Inc/HC_SR05.h&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;61&quot; selectionOffset=&quot;22&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.cdt.ui.editor.CEditor</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_iNoqYJ3nEe-5MoxPU7BTEQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="system_stm32f4xx.c" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;system_stm32f4xx.c&quot; partName=&quot;system_stm32f4xx.c&quot; title=&quot;system_stm32f4xx.c&quot; tooltip=&quot;BTL_NMDKTM_DK/Core/Src/system_stm32f4xx.c&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/BTL_NMDKTM_DK/Core/Src/system_stm32f4xx.c&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;6746&quot; selectionTopPixel=&quot;3200&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;system_stm32f4xx.c&quot; partName=&quot;system_stm32f4xx.c&quot; title=&quot;system_stm32f4xx.c&quot; tooltip=&quot;BTL_NMDKTM_DK/Core/Src/system_stm32f4xx.c&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/BTL_NMDKTM_DK/Core/Src/system_stm32f4xx.c&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;6746&quot; selectionTopPixel=&quot;3620&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.cdt.ui.editor.CEditor</tags>
@@ -413,6 +417,12 @@
         </children>
         <children xsi:type="basic:Part" xmi:id="_ouUMUJ3rEe-5MoxPU7BTEQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="stm32f4xx_hal_rcc.c" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;stm32f4xx_hal_rcc.c&quot; partName=&quot;stm32f4xx_hal_rcc.c&quot; title=&quot;stm32f4xx_hal_rcc.c&quot; tooltip=&quot;BTL_NMDKTM_DK/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/BTL_NMDKTM_DK/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;16353&quot; selectionTopPixel=&quot;7940&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.eclipse.cdt.ui.editor.CEditor</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_AoiPQK2OEe-surQmXuR__A" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="stm32f4xx_hal_msp.c" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;stm32f4xx_hal_msp.c&quot; partName=&quot;stm32f4xx_hal_msp.c&quot; title=&quot;stm32f4xx_hal_msp.c&quot; tooltip=&quot;BTL_NMDKTM_DK/Core/Src/stm32f4xx_hal_msp.c&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/BTL_NMDKTM_DK/Core/Src/stm32f4xx_hal_msp.c&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;3850&quot; selectionTopPixel=&quot;2740&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.cdt.ui.editor.CEditor</tags>
@@ -446,7 +456,7 @@
     <sharedElements xsi:type="basic:Part" xmi:id="_sPDqgZ2ZEe-JuablCoMmlw" elementId="org.eclipse.ui.views.ProblemView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Problems" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/problems_view.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.internal.views.markers.ProblemsView"/>
       <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.ui.ide"/>
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot; categoryGroup=&quot;org.eclipse.ui.ide.severity&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.problemsGenerator&quot;>&#xD;&#xA;&lt;expanded>&#xD;&#xA;&lt;category IMemento.internal.id=&quot;Warnings (1 item)&quot;/>&#xD;&#xA;&lt;category IMemento.internal.id=&quot;Warnings&quot;/>&#xD;&#xA;&lt;/expanded>&#xD;&#xA;&lt;columnWidths org.eclipse.ui.ide.locationField=&quot;120&quot; org.eclipse.ui.ide.markerType=&quot;120&quot; org.eclipse.ui.ide.pathField=&quot;160&quot; org.eclipse.ui.ide.resourceField=&quot;120&quot; org.eclipse.ui.ide.severityAndDescriptionField=&quot;1939&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xD;&#xA;&lt;/view>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot; categoryGroup=&quot;org.eclipse.ui.ide.severity&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.problemsGenerator&quot;>&#xD;&#xA;&lt;columnWidths org.eclipse.ui.ide.locationField=&quot;120&quot; org.eclipse.ui.ide.markerType=&quot;120&quot; org.eclipse.ui.ide.pathField=&quot;160&quot; org.eclipse.ui.ide.resourceField=&quot;120&quot; org.eclipse.ui.ide.severityAndDescriptionField=&quot;1939&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
       <menus xmi:id="_sPDqgp2ZEe-JuablCoMmlw" elementId="org.eclipse.ui.views.ProblemView">
@@ -725,6 +735,30 @@
       </menus>
       <toolbar xmi:id="_uK3zEZ3UEe-5MoxPU7BTEQ" elementId="org.eclipse.debug.ui.MemoryView" visible="false"/>
     </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_5OqPsKH9Ee-tIe3bZwzIyA" elementId="org.eclipse.cdt.ui.callHierarchy" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Call Hierarchy" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/view16/call_hierarchy.gif" tooltip="" closeable="true">
+      <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.cdt.ui"/>
+      <persistedState key="originalCompatibilityViewClass" value="org.eclipse.cdt.internal.ui.callhierarchy.CHViewPart"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view showFilesInLabels=&quot;false&quot; variableFilter=&quot;false&quot;/>"/>
+      <tags>View</tags>
+      <tags>categoryTag:C/C++</tags>
+      <menus xmi:id="_5PAN8KH9Ee-tIe3bZwzIyA" elementId="org.eclipse.cdt.ui.callHierarchy">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <toolbar xmi:id="_5PAN8aH9Ee-tIe3bZwzIyA" elementId="org.eclipse.cdt.ui.callHierarchy" visible="false"/>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_7mV4wKH9Ee-tIe3bZwzIyA" elementId="org.eclipse.search.ui.views.SearchView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Search" iconURI="platform:/plugin/org.eclipse.search/icons/full/eview16/searchres.png" tooltip="" closeable="true">
+      <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.search"/>
+      <persistedState key="originalCompatibilityViewClass" value="org.eclipse.search2.internal.ui.SearchView"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view isPinned=&quot;false&quot;>&#xD;&#xA;&lt;view IMemento.internal.id=&quot;&quot; org.eclipse.search.lastActivation=&quot;0&quot;/>&#xD;&#xA;&lt;/view>"/>
+      <tags>View</tags>
+      <tags>categoryTag:General</tags>
+      <menus xmi:id="_7mlJUKH9Ee-tIe3bZwzIyA" elementId="org.eclipse.search.ui.views.SearchView">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <toolbar xmi:id="_7mlJUaH9Ee-tIe3bZwzIyA" elementId="org.eclipse.search.ui.views.SearchView" visible="false"/>
+    </sharedElements>
     <trimBars xmi:id="_sPDq8p2ZEe-JuablCoMmlw" elementId="org.eclipse.ui.main.toolbar" contributorURI="platform:/plugin/org.eclipse.ui.workbench">
       <children xsi:type="menu:ToolBar" xmi:id="_sPDq852ZEe-JuablCoMmlw" elementId="group.file" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -732,7 +766,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_sPDq9Z2ZEe-JuablCoMmlw" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_pO6JAJ3MEe-5MoxPU7BTEQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_sPFf0p2ZEe-JuablCoMmlw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_MSVo8K1XEe-surQmXuR__A" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_sPFf0p2ZEe-JuablCoMmlw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_sPDrBZ2ZEe-JuablCoMmlw" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -740,8 +774,8 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_sPDrB52ZEe-JuablCoMmlw" elementId="org.eclipse.ui.workbench.edit">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_pO8lQJ3MEe-5MoxPU7BTEQ" elementId="undo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/undo_edit.png" tooltip="Undo" enabled="false" command="_sPFfwJ2ZEe-JuablCoMmlw"/>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_pO9MUJ3MEe-5MoxPU7BTEQ" elementId="redo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/redo_edit.png" tooltip="Redo" enabled="false" command="_sPFgY52ZEe-JuablCoMmlw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_MSYsQK1XEe-surQmXuR__A" elementId="undo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/undo_edit.png" tooltip="Undo" command="_sPFfwJ2ZEe-JuablCoMmlw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_MSYsQa1XEe-surQmXuR__A" elementId="redo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/redo_edit.png" tooltip="Redo" enabled="false" command="_sPFgY52ZEe-JuablCoMmlw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_sPDrD52ZEe-JuablCoMmlw" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -765,7 +799,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_sPEPnJ2ZEe-JuablCoMmlw" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_pO-acJ3MEe-5MoxPU7BTEQ" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_sPFfdp2ZEe-JuablCoMmlw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_MSZ6YK1XEe-surQmXuR__A" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_sPFfdp2ZEe-JuablCoMmlw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_sPEPqp2ZEe-JuablCoMmlw" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -805,7 +839,12 @@
         <tags>Draggable</tags>
       </children>
     </trimBars>
-    <trimBars xmi:id="_sPEPw52ZEe-JuablCoMmlw" elementId="org.eclipse.ui.trim.vertical2" contributorURI="platform:/plugin/org.eclipse.ui.workbench" toBeRendered="false" side="Right"/>
+    <trimBars xmi:id="_sPEPw52ZEe-JuablCoMmlw" elementId="org.eclipse.ui.trim.vertical2" contributorURI="platform:/plugin/org.eclipse.ui.workbench" toBeRendered="false" side="Right">
+      <children xsi:type="menu:ToolControl" xmi:id="_3esRsK2UEe-surQmXuR__A" elementId="org.eclipse.ui.editorss(IDEWindow).(org.eclipse.cdt.ui.CPerspective)" toBeRendered="false" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
+        <tags>TrimStack</tags>
+        <tags>Draggable</tags>
+      </children>
+    </trimBars>
   </children>
   <bindingTables xmi:id="_sPEPxJ2ZEe-JuablCoMmlw" contributorURI="platform:/plugin/org.eclipse.ui.workbench" bindingContext="_sPEQ8p2ZEe-JuablCoMmlw">
     <bindings xmi:id="_sPEPxZ2ZEe-JuablCoMmlw" keySequence="CTRL+1" command="_sPFfb52ZEe-JuablCoMmlw"/>

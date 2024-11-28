@@ -1705,3 +1705,750 @@ Finished building: default.size.stdout
  
 Finished building: BTL_NMDKTM_DK.list
  
+19:59:50 **** Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17904	     12	   1836	  19752	   4d28	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+20:27:42 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17904	     12	   1836	  19752	   4d28	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+22:05:32 **** Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:548:6: error: conflicting types for 'Motor_Control'; have 'void(int32_t)' {aka 'void(long int)'}
+  548 | void Motor_Control(int32_t pwmValue) {
+      |      ^~~~~~~~~~~~~
+In file included from ../Core/Src/main.c:20:
+../Core/Inc/main.h:83:6: note: previous declaration of 'Motor_Control' with type 'void(uint32_t)' {aka 'void(long unsigned int)'}
+   83 | void Motor_Control(uint32_t pwmValue);
+      |      ^~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+22:07:34 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:548:6: error: conflicting types for 'Motor_Control'; have 'void(int32_t)' {aka 'void(long int)'}
+  548 | void Motor_Control(int32_t pwmValue) {
+      |      ^~~~~~~~~~~~~
+In file included from ../Core/Src/main.c:20:
+../Core/Inc/main.h:83:6: note: previous declaration of 'Motor_Control' with type 'void(uint32_t)' {aka 'void(long unsigned int)'}
+   83 | void Motor_Control(uint32_t pwmValue);
+      |      ^~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+22:07:51 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc -o "BTL_NMDKTM_DK.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Asus\Desktop\BTL_NMDKTM_DK\BTL_NMDKTM_DK\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BTL_NMDKTM_DK.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: BTL_NMDKTM_DK.elf
+ 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+arm-none-eabi-objdump -h -S BTL_NMDKTM_DK.elf  > "BTL_NMDKTM_DK.list"
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+Finished building: BTL_NMDKTM_DK.list
+ 
+22:08:19 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+22:31:52 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc -o "BTL_NMDKTM_DK.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Asus\Desktop\BTL_NMDKTM_DK\BTL_NMDKTM_DK\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BTL_NMDKTM_DK.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: BTL_NMDKTM_DK.elf
+ 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+arm-none-eabi-objdump -h -S BTL_NMDKTM_DK.elf  > "BTL_NMDKTM_DK.list"
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+Finished building: BTL_NMDKTM_DK.list
+ 
+22:32:16 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+22:45:26 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "BTL_NMDKTM_DK.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Asus\Desktop\BTL_NMDKTM_DK\BTL_NMDKTM_DK\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BTL_NMDKTM_DK.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: BTL_NMDKTM_DK.elf
+ 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+arm-none-eabi-objdump -h -S BTL_NMDKTM_DK.elf  > "BTL_NMDKTM_DK.list"
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+Finished building: BTL_NMDKTM_DK.list
+ 
+20:57:52 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+21:19:22 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+21:37:26 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+21:40:51 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+21:41:15 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+21:44:28 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+22:01:14 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "BTL_NMDKTM_DK.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Asus\Desktop\BTL_NMDKTM_DK\BTL_NMDKTM_DK\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BTL_NMDKTM_DK.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: BTL_NMDKTM_DK.elf
+ 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+arm-none-eabi-objdump -h -S BTL_NMDKTM_DK.elf  > "BTL_NMDKTM_DK.list"
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+Finished building: BTL_NMDKTM_DK.list
+ 
+22:13:43 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+22:23:21 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+22:28:40 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "BTL_NMDKTM_DK.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Asus\Desktop\BTL_NMDKTM_DK\BTL_NMDKTM_DK\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BTL_NMDKTM_DK.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: BTL_NMDKTM_DK.elf
+ 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+arm-none-eabi-objdump -h -S BTL_NMDKTM_DK.elf  > "BTL_NMDKTM_DK.list"
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+Finished building: BTL_NMDKTM_DK.list
+ 
+22:28:44 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+22:29:54 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+22:30:32 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc -o "BTL_NMDKTM_DK.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Asus\Desktop\BTL_NMDKTM_DK\BTL_NMDKTM_DK\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BTL_NMDKTM_DK.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: BTL_NMDKTM_DK.elf
+ 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+arm-none-eabi-objdump -h -S BTL_NMDKTM_DK.elf  > "BTL_NMDKTM_DK.list"
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+Finished building: BTL_NMDKTM_DK.list
+ 
+22:32:33 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "BTL_NMDKTM_DK.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Asus\Desktop\BTL_NMDKTM_DK\BTL_NMDKTM_DK\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BTL_NMDKTM_DK.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: BTL_NMDKTM_DK.elf
+ 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+arm-none-eabi-objdump -h -S BTL_NMDKTM_DK.elf  > "BTL_NMDKTM_DK.list"
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+Finished building: BTL_NMDKTM_DK.list
+ 
+22:33:56 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+12:59:47 **** Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "BTL_NMDKTM_DK.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Asus\Desktop\BTL_NMDKTM_DK\BTL_NMDKTM_DK\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BTL_NMDKTM_DK.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: BTL_NMDKTM_DK.elf
+ 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+arm-none-eabi-objdump -h -S BTL_NMDKTM_DK.elf  > "BTL_NMDKTM_DK.list"
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+Finished building: BTL_NMDKTM_DK.list
+ 
+13:00:20 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+14:25:49 **** Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+14:25:55 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+14:26:25 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+14:36:30 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc -o "BTL_NMDKTM_DK.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Asus\Desktop\BTL_NMDKTM_DK\BTL_NMDKTM_DK\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BTL_NMDKTM_DK.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: BTL_NMDKTM_DK.elf
+ 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+arm-none-eabi-objdump -h -S BTL_NMDKTM_DK.elf  > "BTL_NMDKTM_DK.list"
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+Finished building: BTL_NMDKTM_DK.list
+ 
+14:36:37 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+14:45:28 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+14:57:21 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "BTL_NMDKTM_DK.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Asus\Desktop\BTL_NMDKTM_DK\BTL_NMDKTM_DK\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BTL_NMDKTM_DK.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: BTL_NMDKTM_DK.elf
+ 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+arm-none-eabi-objdump -h -S BTL_NMDKTM_DK.elf  > "BTL_NMDKTM_DK.list"
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+Finished building: BTL_NMDKTM_DK.list
+ 
+15:00:43 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "BTL_NMDKTM_DK.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Asus\Desktop\BTL_NMDKTM_DK\BTL_NMDKTM_DK\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BTL_NMDKTM_DK.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: BTL_NMDKTM_DK.elf
+ 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+arm-none-eabi-objdump -h -S BTL_NMDKTM_DK.elf  > "BTL_NMDKTM_DK.list"
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+Finished building: BTL_NMDKTM_DK.list
+ 
+15:07:18 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "BTL_NMDKTM_DK.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Asus\Desktop\BTL_NMDKTM_DK\BTL_NMDKTM_DK\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BTL_NMDKTM_DK.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: BTL_NMDKTM_DK.elf
+ 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+arm-none-eabi-objdump -h -S BTL_NMDKTM_DK.elf  > "BTL_NMDKTM_DK.list"
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+Finished building: BTL_NMDKTM_DK.list
+ 
+15:12:26 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "BTL_NMDKTM_DK.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Asus\Desktop\BTL_NMDKTM_DK\BTL_NMDKTM_DK\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BTL_NMDKTM_DK.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: BTL_NMDKTM_DK.elf
+ 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+arm-none-eabi-objdump -h -S BTL_NMDKTM_DK.elf  > "BTL_NMDKTM_DK.list"
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+Finished building: BTL_NMDKTM_DK.list
+ 
+15:14:11 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+15:20:21 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc -o "BTL_NMDKTM_DK.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Asus\Desktop\BTL_NMDKTM_DK\BTL_NMDKTM_DK\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BTL_NMDKTM_DK.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: BTL_NMDKTM_DK.elf
+ 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+arm-none-eabi-objdump -h -S BTL_NMDKTM_DK.elf  > "BTL_NMDKTM_DK.list"
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+Finished building: BTL_NMDKTM_DK.list
+ 
+15:26:03 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+15:30:17 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc -o "BTL_NMDKTM_DK.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Asus\Desktop\BTL_NMDKTM_DK\BTL_NMDKTM_DK\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BTL_NMDKTM_DK.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: BTL_NMDKTM_DK.elf
+ 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+arm-none-eabi-objdump -h -S BTL_NMDKTM_DK.elf  > "BTL_NMDKTM_DK.list"
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+Finished building: BTL_NMDKTM_DK.list
+ 
+15:34:52 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "BTL_NMDKTM_DK.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Asus\Desktop\BTL_NMDKTM_DK\BTL_NMDKTM_DK\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BTL_NMDKTM_DK.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: BTL_NMDKTM_DK.elf
+ 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+arm-none-eabi-objdump -h -S BTL_NMDKTM_DK.elf  > "BTL_NMDKTM_DK.list"
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+Finished building: BTL_NMDKTM_DK.list
+ 
+15:39:21 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "BTL_NMDKTM_DK.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Asus\Desktop\BTL_NMDKTM_DK\BTL_NMDKTM_DK\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BTL_NMDKTM_DK.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: BTL_NMDKTM_DK.elf
+ 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+arm-none-eabi-objdump -h -S BTL_NMDKTM_DK.elf  > "BTL_NMDKTM_DK.list"
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+Finished building: BTL_NMDKTM_DK.list
+ 
+15:58:26 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+16:55:41 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+17:04:29 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+17:15:23 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "BTL_NMDKTM_DK.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Asus\Desktop\BTL_NMDKTM_DK\BTL_NMDKTM_DK\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BTL_NMDKTM_DK.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: BTL_NMDKTM_DK.elf
+ 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+arm-none-eabi-objdump -h -S BTL_NMDKTM_DK.elf  > "BTL_NMDKTM_DK.list"
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+Finished building: BTL_NMDKTM_DK.list
+ 
+17:18:33 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "BTL_NMDKTM_DK.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Asus\Desktop\BTL_NMDKTM_DK\BTL_NMDKTM_DK\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BTL_NMDKTM_DK.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: BTL_NMDKTM_DK.elf
+ 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+arm-none-eabi-objdump -h -S BTL_NMDKTM_DK.elf  > "BTL_NMDKTM_DK.list"
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+Finished building: BTL_NMDKTM_DK.list
+ 
+17:21:03 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "BTL_NMDKTM_DK.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Asus\Desktop\BTL_NMDKTM_DK\BTL_NMDKTM_DK\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BTL_NMDKTM_DK.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: BTL_NMDKTM_DK.elf
+ 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+arm-none-eabi-objdump -h -S BTL_NMDKTM_DK.elf  > "BTL_NMDKTM_DK.list"
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+Finished building: BTL_NMDKTM_DK.list
+ 
+17:23:18 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc -o "BTL_NMDKTM_DK.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Asus\Desktop\BTL_NMDKTM_DK\BTL_NMDKTM_DK\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BTL_NMDKTM_DK.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: BTL_NMDKTM_DK.elf
+ 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+arm-none-eabi-objdump -h -S BTL_NMDKTM_DK.elf  > "BTL_NMDKTM_DK.list"
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+Finished building: BTL_NMDKTM_DK.list
+ 
+17:23:36 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+17:28:54 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc -o "BTL_NMDKTM_DK.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Asus\Desktop\BTL_NMDKTM_DK\BTL_NMDKTM_DK\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BTL_NMDKTM_DK.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: BTL_NMDKTM_DK.elf
+ 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+arm-none-eabi-objdump -h -S BTL_NMDKTM_DK.elf  > "BTL_NMDKTM_DK.list"
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+Finished building: BTL_NMDKTM_DK.list
+ 
+17:32:11 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc -o "BTL_NMDKTM_DK.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Asus\Desktop\BTL_NMDKTM_DK\BTL_NMDKTM_DK\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BTL_NMDKTM_DK.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: BTL_NMDKTM_DK.elf
+ 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+arm-none-eabi-objdump -h -S BTL_NMDKTM_DK.elf  > "BTL_NMDKTM_DK.list"
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+Finished building: BTL_NMDKTM_DK.list
+ 
+17:36:14 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc -o "BTL_NMDKTM_DK.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Asus\Desktop\BTL_NMDKTM_DK\BTL_NMDKTM_DK\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BTL_NMDKTM_DK.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: BTL_NMDKTM_DK.elf
+ 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+arm-none-eabi-objdump -h -S BTL_NMDKTM_DK.elf  > "BTL_NMDKTM_DK.list"
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+Finished building: BTL_NMDKTM_DK.list
+ 
+18:36:31 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc -o "BTL_NMDKTM_DK.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Asus\Desktop\BTL_NMDKTM_DK\BTL_NMDKTM_DK\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BTL_NMDKTM_DK.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: BTL_NMDKTM_DK.elf
+ 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+arm-none-eabi-objdump -h -S BTL_NMDKTM_DK.elf  > "BTL_NMDKTM_DK.list"
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+Finished building: BTL_NMDKTM_DK.list
+ 
+18:37:27 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "BTL_NMDKTM_DK.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Asus\Desktop\BTL_NMDKTM_DK\BTL_NMDKTM_DK\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BTL_NMDKTM_DK.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: BTL_NMDKTM_DK.elf
+ 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+arm-none-eabi-objdump -h -S BTL_NMDKTM_DK.elf  > "BTL_NMDKTM_DK.list"
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+Finished building: BTL_NMDKTM_DK.list
+ 
+18:37:39 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+18:41:08 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+18:42:49 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc -o "BTL_NMDKTM_DK.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Asus\Desktop\BTL_NMDKTM_DK\BTL_NMDKTM_DK\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BTL_NMDKTM_DK.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: BTL_NMDKTM_DK.elf
+ 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+arm-none-eabi-objdump -h -S BTL_NMDKTM_DK.elf  > "BTL_NMDKTM_DK.list"
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+Finished building: BTL_NMDKTM_DK.list
+ 
+18:44:32 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc -o "BTL_NMDKTM_DK.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Asus\Desktop\BTL_NMDKTM_DK\BTL_NMDKTM_DK\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BTL_NMDKTM_DK.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: BTL_NMDKTM_DK.elf
+ 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+arm-none-eabi-objdump -h -S BTL_NMDKTM_DK.elf  > "BTL_NMDKTM_DK.list"
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+Finished building: BTL_NMDKTM_DK.list
+ 
+18:46:35 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+19:02:29 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc -o "BTL_NMDKTM_DK.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Asus\Desktop\BTL_NMDKTM_DK\BTL_NMDKTM_DK\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BTL_NMDKTM_DK.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: BTL_NMDKTM_DK.elf
+ 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+arm-none-eabi-objdump -h -S BTL_NMDKTM_DK.elf  > "BTL_NMDKTM_DK.list"
+   text	   data	    bss	    dec	    hex	filename
+  17920	     12	   1836	  19768	   4d38	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+Finished building: BTL_NMDKTM_DK.list
+ 
+20:37:34 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "BTL_NMDKTM_DK.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Asus\Desktop\BTL_NMDKTM_DK\BTL_NMDKTM_DK\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BTL_NMDKTM_DK.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: BTL_NMDKTM_DK.elf
+ 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+arm-none-eabi-objdump -h -S BTL_NMDKTM_DK.elf  > "BTL_NMDKTM_DK.list"
+   text	   data	    bss	    dec	    hex	filename
+  18232	     12	   1840	  20084	   4e74	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+Finished building: BTL_NMDKTM_DK.list
+ 
+20:38:05 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18232	     12	   1840	  20084	   4e74	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+20:41:00 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "BTL_NMDKTM_DK.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Asus\Desktop\BTL_NMDKTM_DK\BTL_NMDKTM_DK\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BTL_NMDKTM_DK.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: BTL_NMDKTM_DK.elf
+ 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+arm-none-eabi-objdump -h -S BTL_NMDKTM_DK.elf  > "BTL_NMDKTM_DK.list"
+   text	   data	    bss	    dec	    hex	filename
+  18232	     12	   1840	  20084	   4e74	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+Finished building: BTL_NMDKTM_DK.list
+ 
+20:45:16 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "BTL_NMDKTM_DK.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Asus\Desktop\BTL_NMDKTM_DK\BTL_NMDKTM_DK\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BTL_NMDKTM_DK.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: BTL_NMDKTM_DK.elf
+ 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+arm-none-eabi-objdump -h -S BTL_NMDKTM_DK.elf  > "BTL_NMDKTM_DK.list"
+   text	   data	    bss	    dec	    hex	filename
+  18240	     12	   1840	  20092	   4e7c	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+Finished building: BTL_NMDKTM_DK.list
+ 
+20:49:23 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "BTL_NMDKTM_DK.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Asus\Desktop\BTL_NMDKTM_DK\BTL_NMDKTM_DK\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BTL_NMDKTM_DK.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: BTL_NMDKTM_DK.elf
+ 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+arm-none-eabi-objdump -h -S BTL_NMDKTM_DK.elf  > "BTL_NMDKTM_DK.list"
+   text	   data	    bss	    dec	    hex	filename
+  18232	     12	   1840	  20084	   4e74	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+Finished building: BTL_NMDKTM_DK.list
+ 
+21:10:59 **** Incremental Build of configuration Debug for project BTL_NMDKTM_DK ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc -o "BTL_NMDKTM_DK.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Asus\Desktop\BTL_NMDKTM_DK\BTL_NMDKTM_DK\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BTL_NMDKTM_DK.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: BTL_NMDKTM_DK.elf
+ 
+arm-none-eabi-size  BTL_NMDKTM_DK.elf 
+arm-none-eabi-objdump -h -S BTL_NMDKTM_DK.elf  > "BTL_NMDKTM_DK.list"
+   text	   data	    bss	    dec	    hex	filename
+  18232	     12	   1840	  20084	   4e74	BTL_NMDKTM_DK.elf
+Finished building: default.size.stdout
+ 
+Finished building: BTL_NMDKTM_DK.list
+ 

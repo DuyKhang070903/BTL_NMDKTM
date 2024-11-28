@@ -12,6 +12,8 @@
   * This software is licensed under terms that can be found in the LICENSE file
   * in the root directory of this software component.
   * If no LICENSE file comes with this software, it is provided AS-IS.
+  *    Created on: Nov8, 2024
+  *    Author: Mr NguyenDuyKhang
   *
   ******************************************************************************
   */
@@ -35,7 +37,7 @@ float e_k_input;
 float e_k_dot_input;
 uint8_t flag = 0;
 
-int32_t pwmValue;
+double pwmValue;
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
@@ -86,7 +88,8 @@ int main(void)
   /* MCU Configuration--------------------------------------------------------*/
 
   /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
-  HAL_Init();
+
+	HAL_Init();
 
   /* USER CODE BEGIN Init */
 
@@ -121,6 +124,7 @@ int main(void)
 	  Dis = HCSR05_GetDis();
 	  HAL_Delay(200);
 	  flag = 1;
+
 //	  if ( Dis > 12)
 //	  {
 //		  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, 1000);
@@ -458,10 +462,10 @@ float fuzzyController(float a, float b)
 
     float edot[]={hlt_hinhthang(b,-1.5,-1,-0.3,-0.2),hlt_tamgiac(b,-0.3,-0.2,0),hlt_tamgiac(b,-0.2,0,0.2),
     		hlt_tamgiac(b,0,0.2,0.3),hlt_hinhthang(b,0.2,0.3,1,2)};
-
-    float y[]={-1,-0.6667,-0.3333,0,0.3333,0.6667,1};
+//Dieu khien theo su thay doi don vi pwm tren 1s
+//Duty cycle = Don vi pwm/1000 cho ku = 1
+    float y[]={-125,-90,-60,0,25,50,75};
     float beta[5][5];
-
     for (int i = 0; i < 5; i++)
     {
      for (int j = 0; j < 5 ;j++)
@@ -478,10 +482,8 @@ float fuzzyController(float a, float b)
     float PM[] = {beta[e_ZE][edot_PB],beta[e_PS][edot_PS],beta[e_PB][edot_ZE]};
     float PB[] = {beta[e_PB][edot_PB],beta[e_PB][edot_PS],beta[e_PS][edot_PB]};
 
-
     float ans = (rule(NB,y[y_NB],3)+rule(NM,y[y_NM],3)+rule(NS,y[y_NS],4)+rule(ZE,y[y_ZE],5)+
     		rule(PS,y[y_PS],4)+rule(PM,y[y_PM],3)+rule(PB,y[y_PB],3))/sum_array(beta,5,5); // y_defuz=TS/MS
-
     return ans;
 }
 
@@ -545,7 +547,7 @@ float Saturation(float x)
 	return x;
 }
 
-void Motor_Control(uint32_t pwmValue) {
+void Motor_Control(int32_t pwmValue) {
     if (pwmValue > 0) {
         // Bom
         HAL_GPIO_WritePin(GPIOB, GPIO_PIN_3, GPIO_PIN_SET);   // L298N IN3
@@ -558,8 +560,8 @@ void Motor_Control(uint32_t pwmValue) {
     __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, pwmValue);
 }
 
-/* Thoi gian dieu khien cua chuong trinh la 5ms
-
+/*
+ Thoi gian dieu khien cua chuong trinh la 200ms
  */
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 {
@@ -569,21 +571,22 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 //      Delay(200000); // 200ms
     	//HAL_Delay(200);
     	if (flag){
+
     	e_k1 = e_k;
     	e_k = Setpoint - (TANK_HEIGHT - Dis);
-    	e_dot = (e_k - e_k1)/0.005;
+    	e_dot = (e_k - e_k1)/0.2;
 
     	e_k_input = e_k*K1;
     	e_k_dot_input = e_dot*K2;
 
-    	pwmValue += (uint32_t)(0.005*fuzzyController(Saturation(e_k_input), Saturation(e_k_dot_input))*1000);
+    	pwmValue += (0.2*fuzzyController(Saturation(e_k_input), Saturation(e_k_dot_input)));  //Thay vi xuat ra % cong suat r cho ku = 1000 thì xuat thang ra gia tri cua pwm lun
 
-    	if (pwmValue >= 1000)
-    		pwmValue = 1000;
+    	if (pwmValue >= 900)
+    		pwmValue = 900;
     	if (pwmValue < 0)
     		pwmValue = 0;
 
-    	Motor_Control((uint32_t)pwmValue);
+    	Motor_Control((int32_t)pwmValue);
     	}
     	flag = 0;
     }

@@ -13,6 +13,8 @@
   * This software is licensed under terms that can be found in the LICENSE file
   * in the root directory of this software component.
   * If no LICENSE file comes with this software, it is provided AS-IS.
+  *    Created on: Nov8, 2024
+  *    Author: Mr NguyenDuyKhang
   *
   ******************************************************************************
   */
@@ -41,17 +43,19 @@ extern "C" {
 
 /* Exported constants --------------------------------------------------------*/
 /* USER CODE BEGIN EC */
-#define TANK_HEIGHT 22
+#define TANK_HEIGHT 20
 
-#define Setpoint 7    // Thay doi Setpoint de chay
+#define Setpoint 5    // Thay doi Setpoint de chay
 
-#define K1 1/0.125      // Can tool k1 va k2
-#define K2 1/0.001
+#define K1 1/20      // Can tool k1 va k2
+#define K2 1/0.3
 
 #define e_NB 0
 #define e_NS 1
 #define e_ZE 2
 #define e_PS 3
+
+
 #define e_PB 4
 
 
@@ -80,8 +84,9 @@ float sum_array (float data[][5],char n, char m);
 float MIN(float a,float b);
 float rule(float data[],float val,char n);
 float Saturation(float x);
-void Motor_Control(uint32_t pwmValue);
+void Motor_Control(int32_t pwmValue);
 float HCSR05_Read(void);
+
 /* USER CODE END EM */
 
 void HAL_TIM_MspPostInit(TIM_HandleTypeDef *htim);
