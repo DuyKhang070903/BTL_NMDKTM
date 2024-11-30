@@ -1449,7 +1449,7 @@ int main(void)
  800103c:	2100      	movs	r1, #0
  800103e:	480c      	ldr	r0, [pc, #48]	@ (8001070 <main+0x50>)
  8001040:	f002 fa1a 	bl	8003478 <HAL_TIM_IC_Start_IT>
-  HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_1);  // L298N ENB (PA15)
+  HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_1);   // L298N ENB (PA15)
  8001044:	2100      	movs	r1, #0
  8001046:	480b      	ldr	r0, [pc, #44]	@ (8001074 <main+0x54>)
  8001048:	f002 f90c 	bl	8003264 <HAL_TIM_PWM_Start>
@@ -2304,7 +2304,7 @@ float fuzzyController(float a, float b)
     float edot[]={hlt_hinhthang(b,-1.5,-1,-0.3,-0.2),hlt_tamgiac(b,-0.3,-0.2,0),hlt_tamgiac(b,-0.2,0,0.2),
  8001642:	edc7 7a3f 	vstr	s15, [r7, #252]	@ 0xfc
 //Dieu khien theo su thay doi don vi pwm tren 1s
-//Duty cycle = Don vi pwm/1000 cho ku = 1
+//Duty cycle = Don vi pwm/1000, cho ku = 1
     float y[]={-125,-90,-60,0,25,50,75};
  8001646:	4b10      	ldr	r3, [pc, #64]	@ (8001688 <fuzzyController+0x1dc>)
  8001648:	f107 04d0 	add.w	r4, r7, #208	@ 0xd0
@@ -2314,7 +2314,6 @@ float fuzzyController(float a, float b)
  8001652:	e895 0007 	ldmia.w	r5, {r0, r1, r2}
  8001656:	e884 0007 	stmia.w	r4, {r0, r1, r2}
     float beta[5][5];
-
     for (int i = 0; i < 5; i++)
  800165a:	2300      	movs	r3, #0
  800165c:	f8c7 311c 	str.w	r3, [r7, #284]	@ 0x11c
@@ -2457,7 +2456,6 @@ float fuzzyController(float a, float b)
  80017d8:	f5a3 738c 	sub.w	r3, r3, #280	@ 0x118
  80017dc:	609a      	str	r2, [r3, #8]
 
-
     float ans = (rule(NB,y[y_NB],3)+rule(NM,y[y_NM],3)+rule(NS,y[y_NS],4)+rule(ZE,y[y_ZE],5)+
  80017de:	edd7 7a34 	vldr	s15, [r7, #208]	@ 0xd0
  80017e2:	f107 0360 	add.w	r3, r7, #96	@ 0x60
@@ -2526,7 +2524,6 @@ float fuzzyController(float a, float b)
     float ans = (rule(NB,y[y_NB],3)+rule(NM,y[y_NM],3)+rule(NS,y[y_NS],4)+rule(ZE,y[y_ZE],5)+
  80018b0:	eec8 7a07 	vdiv.f32	s15, s16, s14
  80018b4:	edc7 7a45 	vstr	s15, [r7, #276]	@ 0x114
-
     return ans;
  80018b8:	f8d7 3114 	ldr.w	r3, [r7, #276]	@ 0x114
  80018bc:	ee07 3a90 	vmov	s15, r3
@@ -2699,7 +2696,7 @@ float hlt_tamgiac(float data,float l,float m, float r)
 
 08001ab4 <sum_array>:
 
-// Tinh tong theo cong trung binh co trong so
+// Tinh tong theo cong thuc trung binh co trong so
 float sum_array (float data[][5],char n, char m)
 {
  8001ab4:	b480      	push	{r7}
@@ -3021,7 +3018,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
  8001d18:	4a40      	ldr	r2, [pc, #256]	@ (8001e1c <HAL_TIM_PeriodElapsedCallback+0x1b4>)
  8001d1a:	6013      	str	r3, [r2, #0]
 
-    	pwmValue += (0.2*fuzzyController(Saturation(e_k_input), Saturation(e_k_dot_input)));  //Thay vi xuat ra % cong suat r cho ku = 1000 thì xuat thang ra gia tri cua pwm lun
+    	pwmValue += (0.2*fuzzyController(Saturation(e_k_input), Saturation(e_k_dot_input)));  //Thay vi xuat ra % cong suat r cho ku = 1000 thì xuat thang ra gia tri cua pwm
  8001d1c:	4b3e      	ldr	r3, [pc, #248]	@ (8001e18 <HAL_TIM_PeriodElapsedCallback+0x1b0>)
  8001d1e:	edd3 7a00 	vldr	s15, [r3]
  8001d22:	eeb0 0a67 	vmov.f32	s0, s15

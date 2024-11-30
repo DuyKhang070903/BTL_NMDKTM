@@ -110,7 +110,7 @@ int main(void)
   /* USER CODE BEGIN 2 */
 
   HAL_TIM_IC_Start_IT(&htim1, TIM_CHANNEL_1); // HCSR05 ECHO
-  HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_1);  // L298N ENB (PA15)
+  HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_1);   // L298N ENB (PA15)
 //  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_3, GPIO_PIN_SET);   // L298N IN3
 //  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_5, GPIO_PIN_RESET); // L298N IN4
   HAL_TIM_Base_Start_IT(&htim3); // Thoi gian dieu khien he thong
@@ -444,7 +444,6 @@ y9 = y_PB;
 
 % Giai mo trung binh co trong so
 
-
 TS = beta1*y1+beta2*y2+beta3*y3+...
      beta4*y4+beta5*y5+beta6*y6+...
      beta7*y7+beta8*y8+beta9*y9;
@@ -463,7 +462,7 @@ float fuzzyController(float a, float b)
     float edot[]={hlt_hinhthang(b,-1.5,-1,-0.3,-0.2),hlt_tamgiac(b,-0.3,-0.2,0),hlt_tamgiac(b,-0.2,0,0.2),
     		hlt_tamgiac(b,0,0.2,0.3),hlt_hinhthang(b,0.2,0.3,1,2)};
 //Dieu khien theo su thay doi don vi pwm tren 1s
-//Duty cycle = Don vi pwm/1000 cho ku = 1
+//Duty cycle = Don vi pwm/1000, cho ku = 1
     float y[]={-125,-90,-60,0,25,50,75};
     float beta[5][5];
     for (int i = 0; i < 5; i++)
@@ -505,7 +504,7 @@ float hlt_tamgiac(float data,float l,float m, float r)
     return 0;
 }
 
-// Tinh tong theo cong trung binh co trong so
+// Tinh tong theo cong thuc trung binh co trong so
 float sum_array (float data[][5],char n, char m)
 {
     float s=0;
@@ -579,7 +578,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
     	e_k_input = e_k*K1;
     	e_k_dot_input = e_dot*K2;
 
-    	pwmValue += (0.2*fuzzyController(Saturation(e_k_input), Saturation(e_k_dot_input)));  //Thay vi xuat ra % cong suat r cho ku = 1000 thì xuat thang ra gia tri cua pwm lun
+    	pwmValue += (0.2*fuzzyController(Saturation(e_k_input), Saturation(e_k_dot_input)));  //Thay vi xuat ra % cong suat r cho ku = 1000 thì xuat thang ra gia tri cua pwm
 
     	if (pwmValue >= 900)
     		pwmValue = 900;

@@ -54,8 +54,6 @@ extern "C" {
 #define e_NS 1
 #define e_ZE 2
 #define e_PS 3
-
-
 #define e_PB 4
 
 
